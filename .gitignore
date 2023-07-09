@@ -1,0 +1,6 @@
+/.env
+/node_modules
+/package-lock.json
+/student/node_modules
+/student/package-lock.json
+/student/.env
