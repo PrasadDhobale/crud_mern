@@ -16,7 +16,7 @@ const Navbar = () => {
     return(
         <Header position='static'>
             <Toolbar>
-                <Tabs to="/">Propad</Tabs>
+                <Tabs to="/">CRUD app</Tabs>
                 <Tabs to="add">Register</Tabs>
                 <Tabs to="all">All Students</Tabs>
             </Toolbar>

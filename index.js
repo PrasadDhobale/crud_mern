@@ -28,8 +28,8 @@ app.get('*', function(_, res){
 
 const PORT = process.env.PORT || 8000;
 
-const username = "prasaddhobale";
-const password = "CrudStudent";
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
 
 Connection(username, password);
 
